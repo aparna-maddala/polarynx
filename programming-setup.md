@@ -1,9 +1,17 @@
 ## Setup
-- if using windows, download ubuntu (linux subsystem); if mac, what?
+- get ubuntu
+    - if using windows, download ubuntu (linux subsystem)
+    - can choose to download a VM, run ubuntu desktop, or just get the subsystem; subsystem is recommended because it is lighter, but I plan to run ubuntu desktop very soon
+    - if using mac, switch from zsh to bash through `chsh -s /bin/bash`
+- force update: `sudo apt-get update; sudo apt-get upgrade; sudo reboot`
+    - this is your system so you will have sudo perms
 - download VS code - IDE of choice
 - connect subsystem to VS code
 - download packages
+    - test installation: `tree` 
 - version of python
 - CLIs - AWS, Slack, etc
+    - Slack CLI: https://api.slack.com/automation/quickstart
+    - AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html; non-technical people can use AWS Management Console but I would like to get everyone comfortable with terminal commands as much as possible
 - clone repo
 - create a feature branch before making any changes
