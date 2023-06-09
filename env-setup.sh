@@ -3,8 +3,8 @@ sudo apt-get update
 sudo apt-get upgrade
 
 # set up bashrc stuff
-# get windows out of there -- /etc/wsl.conf
-cat .bash_profile 
+sudo touch wsl.conf
+cat .bash_profile=$(source ~/.bashrc)
 export PATH=$PWD:$PATH
 source ~/.bashrc
 
@@ -25,11 +25,14 @@ mamba install tar tree
 sudo apt-get install apache2 # is this the best webserver package?
 sudo apt-get install docker
 
-# AWS and Slack CLI
+# Slack
 curl -fsSL https://downloads.slack-edge.com/slack-cli/install.sh
+
+# AWS
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-unzip awscliv2.zip
-sudo ./aws/install` -A # overwrite any previous failed installations
+unzip awscliv2.zip -A
+cd /home/amaddala/polarynx-slack/awscliv2
+sudo sh aws/install --update 2>&1 >> aws.conf.out # overwrite any previous failed installations
 
 # get a protected copy of the .env file
 # TODO
