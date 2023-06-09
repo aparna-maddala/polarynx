@@ -5,7 +5,7 @@ sudo apt-get upgrade
 # set up bashrc stuff
 sudo touch wsl.conf
 cat .bash_profile=$(source ~/.bashrc)
-export PATH=$PWD:$PATH
+export PATH=$PWD:$PATH:/usr/local/bin
 source ~/.bashrc
 
 # download mamba package manager
@@ -33,6 +33,7 @@ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip
 unzip awscliv2.zip -A
 cd /home/amaddala/polarynx-slack/awscliv2
 sudo sh aws/install --update 2>&1 >> aws.conf.out # overwrite any previous failed installations
+aws --version # test installation
 
 # get a protected copy of the .env file
 # TODO
