@@ -1,3 +1,3 @@
 # polarynx
-patient advocacy and translation plugin, currently available as a silly little chatbot
-the North Star of public health advocacy
+patient advocacy and translation plugin, currently available as a silly little chatbot<br><br>
+our aim is to become a North Star for patient advocacy
