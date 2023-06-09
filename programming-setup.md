@@ -6,7 +6,7 @@ Get started on contributing to the project!
     - if using windows, download ubuntu (linux subsystem)
     - can choose to download a VM, run ubuntu desktop, or just get the subsystem; subsystem is recommended because it is lighter, but I plan to run ubuntu desktop very soon
     - if using mac, switch from zsh to bash through `chsh -s /bin/bash`
-- force update: `sudo apt-get update; sudo apt-get upgrade; sudo reboot`
+- force update: `sudo apt-get update; sudo apt-get upgrade`
     - this is your system so you will have sudo perms
 - Our IDE of choice is VS Code. Choose the appropriate version to install based on your setup here. Afterwards, proceed to the next step: https://code.visualstudio.com/download
 - connect Linux system to VS code

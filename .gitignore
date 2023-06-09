@@ -1,1 +1,5 @@
+# handle cases where people create files with an aws prefix? idk
 aws*
+.env
+mambaforge.sh
+mambaforge.zip
