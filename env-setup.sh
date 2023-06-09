@@ -41,3 +41,5 @@ aws --version # test installation
 # create EC2 instance
 
 # create S3 bucket
+
+# provision a few types of accounts through IAM, complete with roles, groups [sic], and whatever else I'm forgetting
