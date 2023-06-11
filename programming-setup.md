@@ -16,6 +16,12 @@ Get started on contributing to the project!
 - package manager: mamba - https://github.com/conda-forge/miniforge#mambaforge
     - faster implementation of conda that is prominent in scientific community
     - try not to reconfigure an existing conda installation or I will be upset that I have to help you troubleshoot it
+- installing mamba
+```
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+bash Mambaforge-$(uname)-$(uname -m).sh
+```
+- check installation with `mamba --version`
 - create conda environment
     - `mamba create -n polarynx -c conda python r` -- or something that makes sense
 - `mamba activate env polarynx`
