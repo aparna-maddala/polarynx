@@ -39,6 +39,7 @@ bash Mambaforge-$(uname)-$(uname -m).sh
 - CLIs - AWS, Slack, etc
     - Slack CLI: https://api.slack.com/automation/quickstart
         - `curl -fsSL https://downloads.slack-edge.com/slack-cli/install.sh | bash`
+        - `slack login`
     - AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html; non-technical people can use AWS Management Console but I would like to get everyone comfortable with terminal commands as much as possible
         - `curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"; unzip awscliv2.zip; sudo ./aws/install`
 
