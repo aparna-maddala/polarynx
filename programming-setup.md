@@ -16,6 +16,12 @@ Get started on contributing to the project!
 - package manager: mamba - https://github.com/conda-forge/miniforge#mambaforge
     - faster implementation of conda that is prominent in scientific community
     - try not to reconfigure an existing conda installation or I will be upset that I have to help you troubleshoot it
+- installing mamba
+```
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+bash Mambaforge-$(uname)-$(uname -m).sh
+```
+- check installation with `mamba --version`
 - create conda environment
     - `mamba create -n polarynx -c conda python r` -- or something that makes sense
 - `mamba activate env polarynx`
@@ -33,6 +39,7 @@ Get started on contributing to the project!
 - CLIs - AWS, Slack, etc
     - Slack CLI: https://api.slack.com/automation/quickstart
         - `curl -fsSL https://downloads.slack-edge.com/slack-cli/install.sh | bash`
+        - `slack login`
     - AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html; non-technical people can use AWS Management Console but I would like to get everyone comfortable with terminal commands as much as possible
         - `curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"; unzip awscliv2.zip; sudo ./aws/install`
 
