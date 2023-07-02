@@ -1,6 +1,7 @@
-# handle cases where people create files with an aws prefix? idk
-aws*
+/aws
+aws.conf.out
 .env
 mambaforge.sh
 mambaforge.zip
 *.pem
+amaddala-key.txt
