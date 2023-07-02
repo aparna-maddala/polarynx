@@ -3,3 +3,4 @@ aws*
 .env
 mambaforge.sh
 mambaforge.zip
+*.pem
