@@ -7,9 +7,9 @@
 
 sudo apt-get update -y
 sudo apt-get upgrade -y
+sudo apt-get install unzip
 sudo apt-get install apache2 unzip -y
 sudo systemctl enable apache2
-sudo apt-get install unzip
 sudo apt-get install net-tools
 sudo apt-get install mysql-server -y
 sudo systemctl enable mysql
@@ -41,6 +41,6 @@ curl localhost
 ```
 curl http://169.254.169.254/latest/meta-data/placement/availability-zone
 curl http://169.254.169.254/latest/meta-data/instance-id
-curl http://169.254.169.254/latest/meta-data/public-ipv4 >> /var/www/html/index.html
+curl http://169.254.169.254/latest/meta-data/public-ipv4
 curl http://169.254.169.254/latest/meta-data/local-ipv4
 ```
