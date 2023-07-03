@@ -64,8 +64,8 @@ aws --version # test installation
 # Slack
 curl -fsSL https://downloads.slack-edge.com/slack-cli/install.sh
 
-# get a protected copy of the .env file
+# get a protected copy of the .env files
 
 # create S3 bucket
 
-scp -i dev-credentials.pem index.html ubuntu@ec2-18-117-84-176.us-east-2.compute.amazonaws.com:/var/www/html
+scp -i "dev-credentials.pem" index.html ubuntu@ec2-3-142-246-204.us-east-2.compute.amazonaws.com:~
