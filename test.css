@@ -190,7 +190,7 @@ h6{
     border-top:1px solid #eee;
     margin:20px 0
 }
- .w3-image{
+ .px-image{
     max-width:100%;
     height:auto
 }
@@ -236,7 +236,7 @@ a{
  .w3-table th:first-child,.w3-table td:first-child,.w3-table-all th:first-child,.w3-table-all td:first-child{
     padding-left:16px
 }
- .w3-btn,.w3-button{
+ .px-btn,.px-button{
     border:none;
     display:inline-block;
     padding:8px 16px;
@@ -249,10 +249,10 @@ a{
     cursor:pointer;
     white-space:nowrap
 }
- .w3-btn:hover{
+ .px-btn:hover{
     box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
 }
- .w3-btn,.w3-button{
+ .px-btn,.px-button{
     -webkit-touch-callout:none;
     -webkit-user-select:none;
     -khtml-user-select:none;
@@ -260,14 +260,14 @@ a{
     -ms-user-select:none;
     user-select:none
 }
- .w3-disabled,.w3-btn:disabled,.w3-button:disabled{
+ .w3-disabled,.px-btn:disabled,.px-button:disabled{
     cursor:not-allowed;
     opacity:0.3
 }
 .w3-disabled *,:disabled *{
     pointer-events:none
 }
- .w3-btn.w3-disabled:hover,.w3-btn:disabled:hover{
+ .px-btn.w3-disabled:hover,.px-btn:disabled:hover{
     box-shadow:none
 }
  .w3-badge,.w3-tag{
@@ -293,7 +293,7 @@ a{
 .w3-ul li:last-child{
     border-bottom:none
 }
- .w3-tooltip,.w3-display-container{
+ .w3-tooltip,.px-display-container{
     position:relative
 }
 .w3-tooltip .w3-text{
@@ -333,7 +333,7 @@ a{
     background-color:#ccc;
     color:#000
 }
- .w3-dropdown-hover:hover > .w3-button:first-child,.w3-dropdown-click:hover > .w3-button:first-child{
+ .w3-dropdown-hover:hover > .px-button:first-child,.w3-dropdown-click:hover > .px-button:first-child{
     background-color:#ccc;
     color:#000
 }
@@ -368,7 +368,7 @@ a{
  .w3-bar-block .w3-dropdown-hover .w3-dropdown-content,.w3-bar-block .w3-dropdown-click .w3-dropdown-content{
     min-width:100%
 }
- .w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{
+ .w3-bar-block .w3-dropdown-hover .px-button,.w3-bar-block .w3-dropdown-click .px-button{
     width:100%;
     text-align:left;
     padding:8px 16px
@@ -417,7 +417,7 @@ a{
     position:static;
     float:left
 }
- .px-bar .w3-button{
+ .px-bar .px-button{
     white-space:normal
 }
  .w3-bar-block .px-bar-item{
@@ -569,11 +569,11 @@ a{
     margin-left:-16px;
     margin-right:-16px
 }
- .w3-content,.w3-auto{
+ .px-content,.w3-auto{
     margin-left:auto;
     margin-right:auto
 }
-.w3-content{
+.px-content{
     max-width:980px
 }
 .w3-auto{
@@ -620,7 +620,7 @@ a{
      .w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{
         position:relative
     }
-     .w3-hide-small{
+     .px-hide-small{
         display:none!important
     }
     .w3-mobile{
@@ -630,7 +630,7 @@ a{
     .px-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile{
         text-align:center
     }
-     .w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{
+     .w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .px-btn,.w3-dropdown-hover.w3-mobile .px-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .px-btn,.w3-dropdown-click.w3-mobile .px-button{
         width:100%
     }
 }
@@ -748,10 +748,10 @@ a{
     transform:translate(-50%,0%);
     -ms-transform:translate(-50%,0%)
 }
- .w3-display-container:hover .w3-display-hover{
+ .px-display-container:hover .w3-display-hover{
     display:block
 }
-.w3-display-container:hover span.w3-display-hover{
+.px-display-container:hover span.w3-display-hover{
     display:inline-block
 }
 .w3-display-hover{
@@ -1045,6 +1045,10 @@ a{
 .w3-padding-large{
     padding:12px 24px!important
 }
+.px-padding-8{
+    padding-top:8px!important;
+    padding-bottom:8px!important
+}
  .w3-padding-16{
     padding-top:16px!important;
     padding-bottom:16px!important
@@ -1080,10 +1084,10 @@ a{
  .w3-left{
     float:left!important
 }
-.w3-right{
+.px-right{
     float:right!important
 }
- .w3-button:hover{
+ .px-button:hover{
     color:#000!important;
     background-color:#ccc!important
 }
